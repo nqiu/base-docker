@@ -116,33 +116,33 @@ Plug 'vim-scripts/YankRing.vim'
 
 " ===== For python =====
 " Python autocompletion, go to definition.
-Plug 'davidhalter/jedi-vim'
+"Plug 'davidhalter/jedi-vim'
 " Automatically sort python imports
-Plug 'fisadev/vim-isort'
-if has('python')
+"Plug 'fisadev/vim-isort'
+"if has('python')
     " YAPF formatter for Python
-    Plug 'pignacio/vim-yapf-format'
-endif
+    "Plug 'pignacio/vim-yapf-format'
+"endif
 
 " ===== For golang =====
 " vim-go
-Plug 'fatih/vim-go'
+"Plug 'fatih/vim-go'
 
 " ===== For html/css/javascript =====
-Plug 'othree/html5.vim'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'groenewege/vim-less'
-Plug 'pangloss/vim-javascript'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'myhere/vim-nodejs-complete'
-Plug 'Raimondi/delimitMate'
-Plug 'marijnh/tern_for_vim'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'leshill/vim-json'
-Plug 'mxw/vim-jsx'
-Plug 'isRuslan/vim-es6'
-Plug 'itspriddle/vim-jquery'
-Plug 'leafgarland/typescript-vim'
+"Plug 'othree/html5.vim'
+"Plug 'hail2u/vim-css3-syntax'
+"Plug 'groenewege/vim-less'
+"Plug 'pangloss/vim-javascript'
+"Plug 'jelera/vim-javascript-syntax'
+"Plug 'myhere/vim-nodejs-complete'
+"Plug 'Raimondi/delimitMate'
+"Plug 'marijnh/tern_for_vim'
+"Plug 'nathanaelkane/vim-indent-guides'
+"Plug 'leshill/vim-json'
+"Plug 'mxw/vim-jsx'
+"Plug 'isRuslan/vim-es6'
+"Plug 'itspriddle/vim-jquery'
+"Plug 'leafgarland/typescript-vim'
 
 " Tell vim-plug we finished declaring plugins, so it can load them
 call plug#end()
